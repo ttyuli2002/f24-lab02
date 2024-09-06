@@ -1,7 +1,9 @@
+import { Shape } from "./shape"
+
 function square(sideLen: number): Shape {
+    sideLen
     return {
-        sideLen,
-        computeArea: function (): number {
+        computeArea: () => {
             return sideLen * sideLen
         }
     }

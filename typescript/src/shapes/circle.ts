@@ -1,7 +1,9 @@
+import { Shape } from './shape'
+
 function circle(radius: number): Shape {
+    radius
     return {
-        radius,
-        computeArea: function (): number {
+        computeArea: () => {
             return Math.PI * radius * radius
         }
     }
